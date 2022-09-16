@@ -21,6 +21,13 @@ ii.	Single char argument
 iii.	Single int argument 
 iv.	a char and an int argument
 
+4)Write a program in C++ to calculate multiplication of 2nos. Or 3 nos. or 4 nos. as per user choice. (use default arguments)
+5)Write a program to allocate memory in C++ for 2D array. Accept row and col size from  user and accept and display values.
+6)Write a program to create an array dynamically and display it. 
+    a)  An array size is accepted as a character and then converted to the integer using atoi. 
+    b)  An array element is accepted as character and then converted to long using atoll. 
+    c)  You can directly accept array size as integer, and array elements as long. 
+
 ---------------------------------------------------------------------------
 Day2::
 Classes->
