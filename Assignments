@@ -1,0 +1,43 @@
+Day 0::
+1)Write a menu driven program to calculate are and circumference/perimeter of circle, square, triangle, 
+  rectangle and print both results in main. Use const keyword for PI  (use pass by reference mechanism)
+2)Write a program to calculate square, cube of number, max() to find maximum . Use inline functions
+
+---------------------------------------------------------------------------------
+Basics::
+1) Write menu driven program in cpp to find 
+area and perimeter for shapes(circle,square,rectangle)
+Make use of function oveloading for area and perimeter
+
+2)Write a program to get array of values and perform four arithmetic calculations based on 
+enumerated values like PLUS, MINUS, MULTIPLY and DIVIDE.
+
+3) Write  a  C++ program  with  a  function  repchar()  which  accepts  a  given 
+char and a  numerical  value. The function when called will  print the given character for n times 
+If  no  arguments  are  passed  to  the  function  it  will  print  *  for  5 times. 
+Invoke the function with the following: 
+i.	no arguments 
+ii.	Single char argument 
+iii.	Single int argument 
+iv.	a char and an int argument
+
+---------------------------------------------------------------------------
+Day2::
+Classes->
+1) Create a class Complex{int real,int imaginary }
+   Implement default, parametrized constructor, display(), getter() and setter()
+   Note:: The complex number displayed on screen should be in following format: 
+    eg:: 2+3i  where, i is the imaginary unit used for only display purpose
+
+2) Create a class Student{int iRoll; char cName[10]; float fPercentage; float marks[5];}
+ Implement default, parametrized constructor, display(), getter() and setter() and
+  any other functions if needed for calculating marks and percentage
+ Note: every student may not appear all 5 exams. 
+
+3)Create  a  class  for  time  consisting  hours,  minutes,  and  seconds  as data  members. 
+ Methods should be used to initialize and display them.
+  Develop a method to increment time by one second. 
+
+4)Create a class Circle {int radius}
+   Methods should be used to initialize and display area and circumference of circle
+--------------------------------------------------------------------------------------------------------------
