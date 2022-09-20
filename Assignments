@@ -82,6 +82,7 @@ public:
    operator<<()
    operator>>()
    operator[]();
+    ~Array();
 };
 
 int main()
@@ -95,3 +96,34 @@ int main()
     a1[2] =100;      //this should replace value 100 on index 2
     
 }
+----------------------------------------------------------------------------------------------------------
+Day 4::
+Class String::
+1) Create user-defined class string for following object creations::
+    String s1;
+    String s2("Hello");
+    String s3(s2);
+     String s4 = s2;
+     String s5;
+       s5 = s2;
+       
+     s2 = s2
+     s1 = s2+s3  -->concatenation of strings
+     s1[2]= 'L'    ->HeLlo
+     cout<<s2[0]  -->O/P :: H  
+   
+     String s6("Good Morning");
+     cout<<"substr:: "<<s3(5,11);    -->Morning
+     Destrcutor
+     s1 < s2
+     cout << s1
+     cin>>s1
+     
+
+2) Update class Array to implement destructor, copy constrctutor
+
+3) Create class Matrix to allocate memory for 2D array as per user entered size for row and col
+  overload operator() to fetch value from any index position
+ eg:: Matrix m1(3,3) ; //2D array of size 3X3
+       m1(1,2) = 100  //this should assign value 100 on index for array  mat[1][2]
+    Note: Make sure that the index position is not invalid
