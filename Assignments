@@ -127,3 +127,33 @@ Class String::
  eg:: Matrix m1(3,3) ; //2D array of size 3X3
        m1(1,2) = 100  //this should assign value 100 on index for array  mat[1][2]
     Note: Make sure that the index position is not invalid
+------------------------------------------------------------------------------------------------------
+Day 5::
+1) Create class Employee and its derived class WageEmployee, SalesPerson, Manager
+Implement constructor, destructor, accept(),display(),calculate salary.
+Create menu driven program and create object at runtime .
+
+2) Create shape heirarchy having classes Shape, Circle, Square, Triangle, Right angled triangle, 
+equilateral triangle, and use polymorphism.
+
+3)A  bank  maintains  two  kinds  of  accounts  for  customers,  one  called savings account and the other as current account.  
+The  savings  account  provides  compound  interest  and  withdrawal  facilities  but  no cheque book facility. 
+The current account provides cheque book but no interest.
+Current account holders should have a minimum balance else they should pay service charges.  
+Write a program to create a class Customer that stores cut_name,phone_no
+and class account that stores account number, customer name, and type of account. 
+(Note: customer name is not containment/inheritance you can make use of getName() and setName() to access cust_name)
+Create two classes cur_acct and sav_acct that derive from the account class to make them more specific to their requirements. 
+Include necessary member functions in order to achieve the following tasks. 
+1)	Accept deposit from customer and update the balance. 
+2)	Display the account number, customer name, balance 
+3)	Compute and deposit interest  
+4)	Permit withdrawal and update balance 
+5)	Use constructors it initializes the class members.
+6) make sure if interest rate is changed the same should be reflected to all customers (Note: Use static)
+
+------------------------------------------------------------------------------------------------------------
+Day6::
+1) Update employee heirarchy with virtual functions, pure virtual functions, use generic pointer.
+2) Update shape heirarchy and use polymorphism.Make sure traingle is general class for other types of triangles.
+3) Update Account heirarchy and use polymorphism.
