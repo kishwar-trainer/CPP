@@ -157,3 +157,8 @@ Day6::
 1) Update employee heirarchy with virtual functions, pure virtual functions, use generic pointer.
 2) Update shape heirarchy and use polymorphism.Make sure traingle is general class for other types of triangles.
 3) Update Account heirarchy and use polymorphism.
+------------------------------------------------------------------------------------------------------
+Day 7::
+1) Implement class SalesManger in employee heirarchy and make use of multiple inheritance.
+2) Implement demo program for namespaces
+3) Implement program to read and write data to file for object of a class (Class WageEmployee)
