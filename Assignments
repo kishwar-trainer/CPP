@@ -162,3 +162,9 @@ Day 7::
 1) Implement class SalesManger in employee heirarchy and make use of multiple inheritance.
 2) Implement demo program for namespaces
 3) Implement program to read and write data to file for object of a class (Class WageEmployee)
+-------------------------------------------------------------------------------------------------------
+Day 8::
+
+1) Write a user-defined templatized class Stack which can be instantiated for any data-type object
+  Make sure to use exception handling in the same program for stack overflow and underflow 
+  conditions
