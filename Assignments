@@ -99,7 +99,9 @@ int main()
 ----------------------------------------------------------------------------------------------------------
 Day 4::
 Class String::
-1) Create user-defined class string for following object creations::
+1) Create user-defined class String {int lenght, char *str_ptr}
+   Make sure to use DMA for single string in constrcutor,accept, and
+   Execute following object creations::
     String s1;
     String s2("Hello");
     String s3(s2);
