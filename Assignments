@@ -136,7 +136,13 @@ Create menu driven program and create object at runtime .
 2) Create shape heirarchy having classes Shape, Circle, Square, Triangle, Right angled triangle, 
 equilateral triangle, and use polymorphism.
 
-3)A  bank  maintains  two  kinds  of  accounts  for  customers,  one  called savings account and the other as current account.  
+3)Design class Player with data members name and age, 
+derive classes Footballer(goalScore,scoringAvg) and 
+Cricketer (runScored,battingAvg,wicketTaken, bowlingAvg).
+Now, from class Player derive class Bowler(Balls, runs,wkts) and Batsman(balls,runs). 
+Write following member functions accept() , display(), constructors and destructors. 
+
+4)A  bank  maintains  two  kinds  of  accounts  for  customers,  one  called savings account and the other as current account.  
 The  savings  account  provides  compound  interest  and  withdrawal  facilities  but  no cheque book facility. 
 The current account provides cheque book but no interest.
 Current account holders should have a minimum balance else they should pay service charges.  
